@@ -28,21 +28,21 @@
 
 /**
  *
- *  * struct variables - variables
+ * struct variables - variables
  *
- *   * @av: command line arguments
+ * @av: command line arguments
  *
- *    * @buffer: buffer of command
+ * @buffer: buffer of command
  *
- *     * @env: environment variables
+ * @env: environment variables
  *
- *      * @count: count of commands entered
+ * @count: count of commands entered
  *
- *       * @argv: arguments at opening of shell
+ * @argv: arguments at opening of shell
  *
- *        * @status: exit status
+ * @status: exit status
  *
- *         */
+ */
 
 typedef struct variables
 
@@ -68,13 +68,13 @@ typedef struct variables
 
 /**
  *
- *  * struct builtins - struct for the builtin functions
+ * struct builtins - struct for the builtin functions
  *
- *   * @name: name of builtin command
+ * @name: name of builtin command
  *
- *    * @f: function for corresponding builtin
+ * @f: function for corresponding builtin
  *
- *     */
+ */
 
 typedef struct builtins
 
