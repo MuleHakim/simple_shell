@@ -53,7 +53,7 @@ void new_exit(vars_t *vars)
 	free(vars->buffer);
 	free(vars->av);
 	free(vars->commands);
-	ree_env(vars->env);
+	free_env(vars->env);
 	exit(vars->status);
 }
 
